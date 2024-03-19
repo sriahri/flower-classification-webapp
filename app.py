@@ -33,7 +33,7 @@ def main():
 
 @app.route("/about")
 def about_page():
-	return "Please subscribe  Artificial Intelligence Hub..!!!"
+	return "This is a sample project that uses ML as backend to classify different categories of flowers."
 
 @app.route("/submit", methods = ['GET', 'POST'])
 def get_output():
